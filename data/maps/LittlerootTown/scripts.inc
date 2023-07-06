@@ -1,3 +1,4 @@
+ 
 .set LOCALID_TWIN, 1
 .set LOCALID_MOM, 4
 .set LOCALID_RIVAL, 7
@@ -1019,3 +1020,28 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_EventScript_LORAN::
+	msgbox LittlerootTown_EventScript_LORAN_Text_0, MSGBOX_NPC
+	return
+
+
+LittlerootTown_EventScript_L3VEL::
+	msgbox LittlerootTown_EventScript_L3VEL_Text_0, MSGBOX_NPC
+	return
+
+
+LittlerootTown_EventScript_SIGNLHOUSE::
+	lockall
+	msgbox LittlerootTown_EventScript_SIGNLHOUSE_Text_0
+	releaseall
+	return
+
+
+LittlerootTown_EventScript_LORAN_Text_0:
+	.string "Hey!\nIm L3vels Fiance!$"
+
+LittlerootTown_EventScript_L3VEL_Text_0:
+	.string "Welcome to the TBD rom hack!\nI Hope you enjoy what I Made!$"
+
+LittlerootTown_EventScript_SIGNLHOUSE_Text_0:
+	.string "L3VEL's House$"

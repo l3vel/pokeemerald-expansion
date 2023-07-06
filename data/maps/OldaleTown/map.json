@@ -32,8 +32,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
-      "x": 16,
-      "y": 11,
+      "x": 13,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -81,6 +81,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OldaleTown_EventScript_Rival",
       "flag": "FLAG_HIDE_OLDALE_TOWN_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_DEOXYS",
+      "x": 17,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -191,6 +204,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 2,
+      "elevation": 0,
+      "item": "ITEM_LUCARIONITE",
+      "flag": "FLAG_HIDDEN_ITEM_OLDALE_LUCARIONITE"
     }
   ]
 }
