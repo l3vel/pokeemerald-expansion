@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/L3VELSHOUSE_UPSTAIRS/border.bin",
       "blockdata_filepath": "data/layouts/L3VELSHOUSE_UPSTAIRS/map.bin"
+    },
+    {
+      "id": "LAYOUT_MEGA_STONE_CAVE",
+      "name": "MEGA_STONE_CAVE_Layout",
+      "width": 17,
+      "height": 15,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MEGA_STONE_CAVE/border.bin",
+      "blockdata_filepath": "data/layouts/MEGA_STONE_CAVE/map.bin"
     }
   ]
 }

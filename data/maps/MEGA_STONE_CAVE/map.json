@@ -1,0 +1,41 @@
+{
+  "id": "MAP_MEGA_STONE_CAVE",
+  "name": "MEGA_STONE_CAVE",
+  "layout": "LAYOUT_MEGA_STONE_CAVE",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_UNDERGROUND_PATH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "4"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "item": "ITEM_VENUSAURITE",
+      "flag": "FLAG_HIDDEN_ITEM_MS_VENUSAURITE"
+    }
+  ]
+}

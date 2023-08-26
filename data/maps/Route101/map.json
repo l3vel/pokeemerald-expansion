@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_LITTLEROOT_TOWN",
-      "offset": 0,
+      "offset": -10,
       "direction": "down"
     }
   ],
@@ -205,7 +205,7 @@
       "y": 15,
       "elevation": 0,
       "item": "ITEM_METAGROSSITE",
-      "flag": "FLAG_HIDDEN_ITEMS_ROUTE_101_METAGROSSITE"
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_101_METAGROSSITE"
     }
   ]
 }

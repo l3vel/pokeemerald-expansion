@@ -1001,3 +1001,8 @@ u32 GetItemStatus2Mask(u16 itemId)
     else
         return 0;
 }
+
+void ItemId_GetHoldEffectParam_Script()
+{
+    VarSet(VAR_RESULT, ItemId_GetHoldEffectParam(VarGet(VAR_0x8004)));
+}

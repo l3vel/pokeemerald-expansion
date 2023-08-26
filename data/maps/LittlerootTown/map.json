@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_ROUTE101",
-      "offset": 0,
+      "offset": 10,
       "direction": "up"
     }
   ],
@@ -48,8 +48,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
-      "x": 14,
-      "y": 17,
+      "x": 19,
+      "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 2,
@@ -178,8 +178,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MEW",
-      "x": 8,
-      "y": 18,
+      "x": 12,
+      "y": 20,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -218,6 +218,13 @@
       "elevation": 0,
       "dest_map": "MAP_L3VELS_HOUSE",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_MEGA_STONE_CAVE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

@@ -72,6 +72,7 @@
 #define MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB (4 | (1 << 8))
 #define MAP_L3VELS_HOUSE                         (5 | (1 << 8))
 #define MAP_L3VELSHOUSE_UPSTAIRS                 (6 | (1 << 8))
+#define MAP_MEGA_STONE_CAVE                      (7 | (1 << 8))
 
 // gMapGroup_IndoorOldale
 #define MAP_OLDALE_TOWN_HOUSE1            (0 | (2 << 8))
