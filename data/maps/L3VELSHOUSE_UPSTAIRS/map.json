@@ -24,14 +24,14 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "LittlerootTown_EventScript_L3VEL",
       "flag": "0"
     }
   ],
   "warp_events": [
     {
       "x": 1,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_L3VELS_HOUSE",
       "dest_warp_id": "3"
