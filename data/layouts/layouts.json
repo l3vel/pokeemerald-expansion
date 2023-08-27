@@ -4436,8 +4436,8 @@
       "name": "MEGA_STONE_CAVE_Layout",
       "width": 17,
       "height": 15,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Cave",
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/MEGA_STONE_CAVE/border.bin",
       "blockdata_filepath": "data/layouts/MEGA_STONE_CAVE/map.bin"
     }
