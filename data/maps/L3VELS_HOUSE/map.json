@@ -19,7 +19,7 @@
   "warp_events": [
     {
       "x": 1,
-      "y": 3,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_L3VELSHOUSE_UPSTAIRS",
       "dest_warp_id": "0"
