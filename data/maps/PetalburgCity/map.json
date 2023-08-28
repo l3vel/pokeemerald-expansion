@@ -320,7 +320,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 11,
+      "x": 5,
       "y": 29,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
