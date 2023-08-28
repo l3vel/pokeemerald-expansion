@@ -4440,6 +4440,16 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/MEGA_STONE_CAVE/border.bin",
       "blockdata_filepath": "data/layouts/MEGA_STONE_CAVE/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHIKEN_BISKUITS_CRIB",
+      "name": "ChikenBISKUITsCrib_Layout",
+      "width": 13,
+      "height": 13,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_EliteFour",
+      "border_filepath": "data/layouts/ChikenBISKUITsCrib/border.bin",
+      "blockdata_filepath": "data/layouts/ChikenBISKUITsCrib/map.bin"
     }
   ]
 }

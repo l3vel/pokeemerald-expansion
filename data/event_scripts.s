@@ -1065,3 +1065,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/L3VELSHOUSE_UPSTAIRS/scripts.inc"
 
 	.include "data/maps/MEGA_STONE_CAVE/scripts.inc"
+
+	.include "data/maps/ChikenBISKUITsCrib/scripts.inc"

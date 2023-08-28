@@ -1,3 +1,4 @@
+raw `
 .set LOCALID_MART_EMPLOYEE, 2
 .set LOCALID_FOOTPRINTS_MAN, 3
 .set LOCALID_RIVAL, 4
@@ -399,12 +400,12 @@ OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
 	.string "“Where things start off scarce.”$"
 
-OldaleTown_EventScript_SIGNCBHOUSE::
-	lockall
-	msgbox OldaleTown_EventScript_SIGNCBHOUSE_Text_0
-	releaseall
-	return
+`
+script OldaleTown_EventScript_SIGNCBHOUSE{
+    lockall
+    msgbox("Enter at your own risk")
+    releaseall
+}
 
 
-OldaleTown_EventScript_SIGNCBHOUSE_Text_0:
-	.string "Enter at your own risk$"
+

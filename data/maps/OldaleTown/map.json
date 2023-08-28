@@ -92,14 +92,14 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 16,
-      "y": 11,
+      "x": 5,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_HOUSE2",
       "dest_warp_id": "0"
     },
     {
-      "x": 6,
+      "x": 14,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_POKEMON_CENTER_1F",
@@ -110,6 +110,13 @@
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_CHIKEN_BISKUITS_CRIB",
       "dest_warp_id": "0"
     }
   ],
@@ -162,7 +169,7 @@
     },
     {
       "type": "sign",
-      "x": 7,
+      "x": 15,
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -178,7 +185,7 @@
     },
     {
       "type": "sign",
-      "x": 8,
+      "x": 16,
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -199,6 +206,14 @@
       "elevation": 0,
       "item": "ITEM_LUCARIONITE",
       "flag": "FLAG_HIDDEN_ITEM_OLDALE_LUCARIONITE"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "OldaleTown_EventScript_SIGNCBHOUSE"
     }
   ]
 }
